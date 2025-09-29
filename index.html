@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elecciones 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .candidato {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        #total {
+            margin-top: 20px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin-left: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Botón sumar */
+        .btn-mas {
+            background-color: #4CAF50;
+            /* verde */
+            color: white;
+        }
+
+        .btn-mas:hover {
+            background-color: #45a049;
+            /* verde más oscuro */
+        }
+
+        /* Botón restar */
+        .btn-menos {
+            background-color: #f44336;
+            /* rojo */
+            color: white;
+        }
+
+        .btn-menos:hover {
+            background-color: #d32f2f;
+            /* rojo más oscuro */
+        }
+
+        #reset {
+            background-color: #2196F3;
+            /* azul */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #reset:hover {
+            background-color: #0b7dda;
+            /* azul más oscuro */
+        }
+
+        input[type="number"] {
+            width: 60px;
+            text-align: center;
+            margin-left: 5px;
+            padding: 4px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Elecciones 2025</h1>
+    <div id="listaCandidatos"></div>
+    <div id="total"></div>
+
+    <div id="total"></div>
+    <div style="text-align:center; margin-top: 20px;">
+        <button id="reset">Limpiar</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
